@@ -28,13 +28,13 @@ if($titles[0]eq($name)){
   my $sth1 = $dbh->prepare ("UPDATE wiki SET markdown=? WHERE name=?");
   $sth1->execute($markdown, $name);
   $sth1->finish;
-  $estado="Página actualizada con éxito";
+  $estado="Se actualizo la página con éxito.";
 }
 else{
   my $sth2 = $dbh->prepare("INSERT INTO wiki (name, markdown) VALUES (?,?)");
   $sth2->execute($name, $markdown);
   $sth2->finish;
-  $estado="Página grabada";
+  $estado="La página ha sido creada con éxito.";
 }
 $dbh->disconnect;
 
