@@ -234,3 +234,84 @@ to{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #FF597B;
   }
+
+  /* list.pl */
+  .ult {
+    line-height: 25px;
+    margin-left: 50px;
+    width: 500px;
+    float: left;
+  }
+
+  .ult button {
+    width: 40px;
+    height: 25px;
+    color: white;
+      
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #FF597B;
+    border-color: #FF597B;
+    margin-left: 20px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+
+  .ult button:hover {
+    background-color: #263159;
+    border-color: #263159;
+
+  }
+
+  /* delete.pl */
+  .boton2{
+    display: block;
+    color: white;
+    
+    float: left;
+    margin-top: 4px;
+    margin-left: 240px;
+    font-size: 15px;
+
+
+    background: #FF597B;
+    width: 120PX;
+    height: 50px;
+    border-radius: 10px;
+    border: 5px solid #FF597B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+
+  .boton2:hover{
+     border: 3px solid #263159;
+     background: #263159;
+     color: white;
+  }
+
+  .box_form2 {
+    height: 150px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.767);
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    position: relative;
+    z-index: 2;
+
+    border-radius: 15px;
+    margin: 0px auto;
+    margin-top: 17%;
+    border: 10px solid #FF597B;
+}
+
+.box_form2 h1 {
+    text-align: center;
+    color: #FF597B;
+}
+
+.lm{
+    color: #263159;
+}
