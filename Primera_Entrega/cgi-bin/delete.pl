@@ -23,7 +23,7 @@ my $name = $cgi->param('name');
 #Database part
 my $user= 'alumno';
 my $password = 'pweb1';
-my $dsn = "DBI:MariaDB:database=pweb1;host=192.168.0.102";
+my $dsn = "DBI:MariaDB:database=pweb1;host=192.168.0.122";
 my $dbh = DBI->connect($dsn, $user, $password) or die ("No se puede conectar");
 #Eliminar datos
 my $sth = $dbh->prepare("DELETE from wiki WHERE name=?");
